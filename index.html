@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="header">
+  <h1>Hospitel</h1>
+  <p>in Samutpakan and Bangkok.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://ddc.moph.go.th/covid19-dashboard/?dashboard=province">สถานการณ์โควิดในปัจจุบัน</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">โรงพยาบาลในจังหวัดสมุทรปราการ
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="https://smpkhos.go.th/smpkV2/home.php">โรงพยาบาลสมุทรปราการ</a>
+    <a href="http://www.muangsamut.net/?page_id=246">โรงพยาบาล เมืองสมุทรปู่เจ้า</a>
+    <a href="https://www.paolohospital.com/th-TH/samut/Home">โรงพยาบาลเปาโลสมุทรปราการ</a>
+    <a href="https://www.bph.go.th/it/">โรงพยาบาลบางพลี</a>
+    <a href="https://www.rama.mahidol.ac.th/cnmi/contactus">โรงพยาบาล รามาธิบดีจักรีนฤบดินทร์</a>
+    <a href="https://www.bangbohos.go.th/">โรงพยาบาลบางบ่อ</a>
+    <a href="https://www.chularat3.com/">โรงพยาบาลจุฬารัตน์ 3 อินเตอร์</a>
+    <a href="https://ch9airport.com/th/%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B9%81%E0%B8%A3%E0%B8%81/">โรงพยาบาลจุฬารัตน์ 9แอร์พอร์ต</a>
+    <a href="https://www.bpksamutprakan.com/">โรงพยาบาลบางปะกอก สมุทรปราการ</a>
+    <a href="https://healthserv.net/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%9E%E0%B8%A2%E0%B8%B2%E0%B8%9A%E0%B8%B2%E0%B8%A5%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%A5%E0%B8%9B%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84-hospd763">โรงพยาบาลเซ็นทรัลปาร์ค</a>
+    <a href="https://www.sikarin.com/">โรงพยาบาลศิครินทร์</a>
+    <a href="http://www.samrong-hosp.com/">โรงพยาบาลสำโรงการแพทย์</a>
+    <a href="https://www.vibharamchaiprakarn.com/contact.php">โรงพยาบาลวิภาราม-ชัยปราการ</a>
+    <a href="https://www.princsuvarnabhumi.com/">โรงพยาบาลพริ้นซ์ สุวรรณภูมิ</a>
+    <a href="http://www.muangsamut.net/?page_id=246">โรงพยาบาลเมืองสมุทรปากน้ำ</a>
+    <a href="https://bangna.co.th/">โรงพยาบาลบางนา 2</a>
+    <a href="https://bangna.co.th/home_bangna5.html">โรงพยาบาลบางนา 5</a>
+  </div>
+  </div>
+  <a href="#">Link</a>
+  <a href="practice.html" class="right">ระเบียบการปฏิบัติตัว</a>
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+<div class="row">
+  <div class="side">
+    <h2>ผู้จัดทำ</h2>
+    <h5>สมาชิก</h5>
+    <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/turlek.jpg" style="width:100%">
+  <div class="text"><Mark>นางสาวอารีย์ แซ่ล้อ รหัสนิสิต 62103010026</Mark></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/flim.jpg" style="width:100%">
+  <div class="text"><Mark>นางสาวจิรานุช สรพินิจ รหัสนิสิต 62103010499</Mark></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/Arm.jpg" style="width:100%">
+  <div class="text"><Mark>นายณัฐวัฒน์ โอนอ่อน รหัสนิสิต 62103010456</Mark></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+    <h3><strong>วัตถุประสงค์ :</strong></h3>
+    <p>
+      1.เพื่อจัดทำ WebGIS applications หัวข้อ โควิด 19 เชิงพื้นที่ในประเทศไทย เรื่อง Hospitel เชิงพื้นที่และการบริการ ให้ความรู้การเตรียมตัวก่อนเข้ารักรักษาใน Hospitel
+    </p>
+    <p>
+      2.เพื่อเสนอทางเลือกในการเข้ารักษาของผู้ป่วยโควิด-19 ในผู้ป่วยสีเขียว ให้มีทางเลือกในการเข้ารับรักษาและกักตัว ตามคำแนะนำแพทย์
+    </p>
+
+    <h3><strong>ข่าวสาร</strong></h3>
+    <p><strong>สาระน่ารู้👇</strong></p>
+    <div class="" style="height:150px;"><iframe width="400" height="230" src="https://www.youtube.com/embed/4HOdM21EzxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe></div><br>
+    <div class="" style="height:150px;"></div>
+  </div>
+
+  <div class="main">
+    <h2>Map of Samut Prakan Affiliated Hospitels</h2>
+    <h5></h5>
+    <div class="" style="height:400px;"><center><iframe src="Qgis2.html" width="900" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center></div>
+    <br>
+    <center><a href="Qgis2.html">ขยายแผนที่</a></center>
+    <p><strong>ความสำคัญ</strong></p>
+    <p>"Hospitel" หรือ หอผู้ป่วยเฉพาะกิจ COVID-19 เป็นที่พักรูปแบบใหม่ที่ได้รับการออกแบบมาเพื่อลดจำนวนผู้ป่วยที่อาศัยอยู่ในโรงพยาบาลในช่วงที่มีการระบาดของโรคโควิด-19  โดยปรับเปลี่ยนโรงแรมให้เป็นพื้นที่เฝ้าระวังอาการโควิด-19 เพื่อให้ทางโรงพยาบาลสามารถรองรับผู้ป่วยหนักได้อย่างเต็มที่</p>
+    <br>
+    <h2>การเตรียมตัวก่อนเข้ารักษาใน Hospitel</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="" style="height:650px;"><center><img src="images\Photo1.gif" width="550" height="650" style="border:0;" allowfullscreen="" loading="lazy"></center></div>
+    <p><strong>สำหรับผู้ที่ติดเชื้อโควิด-19</strong> ที่มีอาการไม่รุนแรง เมื่อผลตรวจ RT-PCR ยืนยันว่าเป็นบวก เจ้าหน้าที่จะติดต่อเพื่อให้ท่านเข้ารับการรักษาตัวใน Hospitel  ก่อนเข้ารับการรักษา ผู้ป่วยควรเตรียมอุปกรณ์ต่าง ๆ ทำความเข้าใจถึงวิธีปฎิบัติตัวและกฎระเบียบในการเข้าพัก เพื่อให้ท่านได้รับความสะดวก ปลอดภัยจากการเข้ารับการรักษาใน Hospitel สูงสุด</p>
+    <p><strong>👉สิ่งที่ต้องเตรียมเมื่อต้องเข้ารับการรักษาตัวที่ Hospitel</strong></p>
+<p>📍บัตรประจำตัวประชาชน หรือหนังสือเดินทาง เพื่อใช้ในการยืนยันตัวตนเมื่อเข้ารับการรักษา</p>
+<p>📍เสื้อผ้าสวมใส่สบาย ซักทำความสะอาดง่าย อย่างน้อย 14 วัน</p>
+<p>📍โทรศัพท์ ที่สามารถใช้ไลน์และวีดีโอคอลได้ พร้อมสายชาร์จ เพื่อใช้สื่อสารเพื่อการรักษา</p>
+<p>📍ของใช้ส่วนตัว สำหรับ 14 วัน เช่น ทิชชู่ สบู่ ยาสีฟัน แปรงสีฟัน ผ้าเช็ดตัว  ผงซักฟอก น้ำยาล้างจาน ผ้าอนามัย (สำหรับผู้หญิง) เป็นต้น</p>
+<p>📍หน้ากากอนามัย /  สเปรย์แอลกอฮอล์ (หากต้องการนำมาเพิ่มเติมจากที่โรงพยาบาลเตรียมไว้ให้) เพื่อป้องกันการแพร่กระจายเชื้อ</p>
+<p>📍ยารักษาโรคประจำตัว หรือข้อมูลประวัติการรักษาจาก รพ.เดิม (ถ้ามี)</p>
+<p>📍หนังสือหรือคอมพิวเตอร์ สำหรับผ่อนคลาย</p>
+<p>📍อาหาร ขนม น้ำที่ชอบ โดยเฉพาะอาหารรองท้องในวันแรก</p>
+<p>📍ปลั๊กไฟพ่วง หากต้องการเชื่อมต่อปลั๊กไฟเพิ่มเติม</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>การติดต่อ</h2>
+  <a href="http://www.spko.moph.go.th/"><img src="images\logo-1.png" width="200" height="60" style="border:0;" allowfullscreen="" loading="lazy"></a>&nbsp;&nbsp;
+  <a href="https://th-th.facebook.com/prdsamutprakan/"><img src="images\facebook.png" width="50" height="50" style="border:0;" allowfullscreen="" loading="lazy"></a>&nbsp;&nbsp;
+  <a href="https://page.line.me/mophconnect?openQrModal=true"><img src="images\iconline.png" width="50" height="50" style="border:0;" allowfullscreen="" loading="lazy"></a>&nbsp;&nbsp;
+  <a href="https://twitter.com/pr_moph?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="images\twitter.png" width="50" height="50" style="border:0;" allowfullscreen="" loading="lazy"></a>
+
+</div>
+
+</body>
+</html>
